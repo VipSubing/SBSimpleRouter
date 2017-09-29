@@ -147,7 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				17D96D5F1F7CE23900582D60 /* SimpleRoutePod */,
-				17422CEC1F289DA1000C1EB7 /* 路由 */,
+				17422CEC1F289DA1000C1EB7 /* Router */,
 				17422D061F289DA1000C1EB7 /* 路由Tests */,
 				17422D111F289DA2000C1EB7 /* 路由UITests */,
 				17422CEB1F289DA1000C1EB7 /* Products */,
@@ -164,10 +164,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		17422CEC1F289DA1000C1EB7 /* 路由 */ = {
+		17422CEC1F289DA1000C1EB7 /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				17422D201F289DBC000C1EB7 /* simple路由 */,
+				17422D201F289DBC000C1EB7 /* SimpleRouter */,
 				17422CF01F289DA1000C1EB7 /* AppDelegate.h */,
 				17422CF11F289DA1000C1EB7 /* AppDelegate.m */,
 				17D96D3D1F7A2A1E00582D60 /* RootViewController.h */,
@@ -190,7 +190,7 @@
 				17422CFE1F289DA1000C1EB7 /* Info.plist */,
 				17422CED1F289DA1000C1EB7 /* Supporting Files */,
 			);
-			path = "路由";
+			path = Router;
 			sourceTree = "<group>";
 		};
 		17422CED1F289DA1000C1EB7 /* Supporting Files */ = {
@@ -225,7 +225,7 @@
 			path = "路由UITests";
 			sourceTree = "<group>";
 		};
-		17422D201F289DBC000C1EB7 /* simple路由 */ = {
+		17422D201F289DBC000C1EB7 /* SimpleRouter */ = {
 			isa = PBXGroup;
 			children = (
 				17422D211F289DBC000C1EB7 /* SBSimpleRouteEvent.h */,
@@ -248,7 +248,7 @@
 				17422D251F289DBC000C1EB7 /* SBSimpleRouteUrl.h */,
 				17422D261F289DBC000C1EB7 /* SBSimpleRouteUrl.m */,
 			);
-			path = "simple路由";
+			path = SimpleRouter;
 			sourceTree = "<group>";
 		};
 		17D96D491F7A53EC00582D60 /* YBPopupMenu */ = {

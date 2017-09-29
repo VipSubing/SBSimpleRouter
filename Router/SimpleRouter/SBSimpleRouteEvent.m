@@ -67,7 +67,6 @@
         }
         return;
     }
-    NSLog(@"numberOfArguments:%ld",methodSig.numberOfArguments);
     if ((params.count != methodSig.numberOfArguments-2) || params.count != method.params.count || ![self params:params isEqualOther:method.params]) {
         if (response) {
             response(nil,routeUrl.url,NO,[NSError sb_errorWithDomain:@"参数错误" code:SBSimpleRouteParameterError userInfo:@{@"url":routeUrl.url}]);
