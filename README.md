@@ -5,7 +5,8 @@
 SBSimpleRouter使用主要分为两部<br>
 第一步——注册，相比传统的路由注册方式，它扩展的几个更方便的注册方式，包括自动注册，自定义注册<br>
 第二步——调用，调用方式包括对象调用和非对象调用。
-
+## Cocoa Pods
+pod 'SBSimpleRouter'
 ## Route Format (路由格式:host#action?params)
 
 首先，在注册和调用之前，我们介绍路由格式的定义，这非常重要。<br>
