@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = 'SBSimpleRouter'
-    s.version      = '1.0.1'
+    s.version      = '1.0.2'
     s.summary      = '一个便捷的路由解决方案'
     s.homepage     = 'https://github.com/pubin563783417/SBSimpleRouter'
     s.license      = 'MIT'
