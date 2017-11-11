@@ -9,19 +9,12 @@
 /* Begin PBXBuildFile section */
 		172D2E731F2F2CBC0063F58A /* NSObject+SBSimpleRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 172D2E721F2F2CBC0063F58A /* NSObject+SBSimpleRoute.m */; };
 		172D2E791F300B110063F58A /* NSError+SBStructure.m in Sources */ = {isa = PBXBuildFile; fileRef = 172D2E781F300B110063F58A /* NSError+SBStructure.m */; };
-		172D2E7B1F301ACC0063F58A /* RouteUrlTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 172D2E7A1F301ACC0063F58A /* RouteUrlTest.m */; };
-		172D2E7D1F3020F00063F58A /* MethodTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 172D2E7C1F3020F00063F58A /* MethodTest.m */; };
-		172D2E7F1F30259B0063F58A /* ReceiveObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 172D2E7E1F30259B0063F58A /* ReceiveObjectTest.m */; };
-		172D2E811F3031070063F58A /* EventTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 172D2E801F3031070063F58A /* EventTest.m */; };
 		172D2E841F304CE80063F58A /* SBSimpleEventQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 172D2E831F304CE80063F58A /* SBSimpleEventQueue.m */; };
-		172D2E861F3080610063F58A /* EventQueueTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 172D2E851F3080610063F58A /* EventQueueTest.m */; };
 		17422CEF1F289DA1000C1EB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17422CEE1F289DA1000C1EB7 /* main.m */; };
 		17422CF21F289DA1000C1EB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17422CF11F289DA1000C1EB7 /* AppDelegate.m */; };
 		17422CF81F289DA1000C1EB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17422CF61F289DA1000C1EB7 /* Main.storyboard */; };
 		17422CFA1F289DA1000C1EB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17422CF91F289DA1000C1EB7 /* Assets.xcassets */; };
 		17422CFD1F289DA1000C1EB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17422CFB1F289DA1000C1EB7 /* LaunchScreen.storyboard */; };
-		17422D081F289DA1000C1EB7 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17422D071F289DA1000C1EB7 /* __Tests.m */; };
-		17422D131F289DA2000C1EB7 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17422D121F289DA2000C1EB7 /* __UITests.m */; };
 		17422D271F289DBC000C1EB7 /* SBSimpleRouteEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 17422D221F289DBC000C1EB7 /* SBSimpleRouteEvent.m */; };
 		17422D281F289DBC000C1EB7 /* SBSimpleRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 17422D241F289DBC000C1EB7 /* SBSimpleRouter.m */; };
 		17422D291F289DBC000C1EB7 /* SBSimpleRouteUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 17422D261F289DBC000C1EB7 /* SBSimpleRouteUrl.m */; };
@@ -31,44 +24,19 @@
 		17D96D3F1F7A2A1E00582D60 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D96D3E1F7A2A1E00582D60 /* RootViewController.m */; };
 		17D96D421F7A2FF000582D60 /* ManualRegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D96D411F7A2FF000582D60 /* ManualRegistViewController.m */; };
 		17D96D481F7A358100582D60 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D96D471F7A358100582D60 /* TestViewController.m */; };
-		17D96D501F7A53EC00582D60 /* YBPopupMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D96D4B1F7A53EC00582D60 /* YBPopupMenu.m */; };
-		17D96D511F7A53EC00582D60 /* YBPopupMenuPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D96D4D1F7A53EC00582D60 /* YBPopupMenuPath.m */; };
-		17D96D521F7A53EC00582D60 /* YBRectConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D96D4F1F7A53EC00582D60 /* YBRectConst.m */; };
 		17D96D551F7B56D500582D60 /* TestAotuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D96D541F7B56D500582D60 /* TestAotuViewController.m */; };
 		17D96D581F7B592A00582D60 /* AutoRegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D96D571F7B592A00582D60 /* AutoRegistViewController.m */; };
 		17D96D5B1F7B946300582D60 /* CustomRegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D96D5A1F7B946300582D60 /* CustomRegistViewController.m */; };
 		17D96D5E1F7BA69300582D60 /* RouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D96D5D1F7BA69300582D60 /* RouteViewController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		17422D041F289DA1000C1EB7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 17422CE21F289DA1000C1EB7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 17422CE91F289DA1000C1EB7;
-			remoteInfo = "路由";
-		};
-		17422D0F1F289DA2000C1EB7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 17422CE21F289DA1000C1EB7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 17422CE91F289DA1000C1EB7;
-			remoteInfo = "路由";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		172D2E711F2F2CBC0063F58A /* NSObject+SBSimpleRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBSimpleRoute.h"; sourceTree = "<group>"; };
 		172D2E721F2F2CBC0063F58A /* NSObject+SBSimpleRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBSimpleRoute.m"; sourceTree = "<group>"; };
 		172D2E771F300B110063F58A /* NSError+SBStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+SBStructure.h"; sourceTree = "<group>"; };
 		172D2E781F300B110063F58A /* NSError+SBStructure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+SBStructure.m"; sourceTree = "<group>"; };
-		172D2E7A1F301ACC0063F58A /* RouteUrlTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteUrlTest.m; sourceTree = "<group>"; };
-		172D2E7C1F3020F00063F58A /* MethodTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodTest.m; sourceTree = "<group>"; };
-		172D2E7E1F30259B0063F58A /* ReceiveObjectTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiveObjectTest.m; sourceTree = "<group>"; };
-		172D2E801F3031070063F58A /* EventTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventTest.m; sourceTree = "<group>"; };
 		172D2E821F304CE80063F58A /* SBSimpleEventQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSimpleEventQueue.h; sourceTree = "<group>"; };
 		172D2E831F304CE80063F58A /* SBSimpleEventQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSimpleEventQueue.m; sourceTree = "<group>"; };
-		172D2E851F3080610063F58A /* EventQueueTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventQueueTest.m; sourceTree = "<group>"; };
 		17422CEA1F289DA1000C1EB7 /* 路由.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "路由.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17422CEE1F289DA1000C1EB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		17422CF01F289DA1000C1EB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -77,12 +45,6 @@
 		17422CF91F289DA1000C1EB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17422CFC1F289DA1000C1EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17422CFE1F289DA1000C1EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		17422D031F289DA1000C1EB7 /* 路由Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "路由Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		17422D071F289DA1000C1EB7 /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
-		17422D091F289DA2000C1EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		17422D0E1F289DA2000C1EB7 /* 路由UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "路由UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		17422D121F289DA2000C1EB7 /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
-		17422D141F289DA2000C1EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17422D211F289DBC000C1EB7 /* SBSimpleRouteEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSimpleRouteEvent.h; sourceTree = "<group>"; };
 		17422D221F289DBC000C1EB7 /* SBSimpleRouteEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSimpleRouteEvent.m; sourceTree = "<group>"; };
 		17422D231F289DBC000C1EB7 /* SBSimpleRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSimpleRouter.h; sourceTree = "<group>"; };
@@ -102,12 +64,6 @@
 		17D96D411F7A2FF000582D60 /* ManualRegistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManualRegistViewController.m; sourceTree = "<group>"; };
 		17D96D461F7A358100582D60 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		17D96D471F7A358100582D60 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		17D96D4A1F7A53EC00582D60 /* YBPopupMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBPopupMenu.h; sourceTree = "<group>"; };
-		17D96D4B1F7A53EC00582D60 /* YBPopupMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBPopupMenu.m; sourceTree = "<group>"; };
-		17D96D4C1F7A53EC00582D60 /* YBPopupMenuPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBPopupMenuPath.h; sourceTree = "<group>"; };
-		17D96D4D1F7A53EC00582D60 /* YBPopupMenuPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBPopupMenuPath.m; sourceTree = "<group>"; };
-		17D96D4E1F7A53EC00582D60 /* YBRectConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBRectConst.h; sourceTree = "<group>"; };
-		17D96D4F1F7A53EC00582D60 /* YBRectConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBRectConst.m; sourceTree = "<group>"; };
 		17D96D531F7B56D500582D60 /* TestAotuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAotuViewController.h; sourceTree = "<group>"; };
 		17D96D541F7B56D500582D60 /* TestAotuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAotuViewController.m; sourceTree = "<group>"; };
 		17D96D561F7B592A00582D60 /* AutoRegistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoRegistViewController.h; sourceTree = "<group>"; };
@@ -126,20 +82,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		17422D001F289DA1000C1EB7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		17422D0B1F289DA2000C1EB7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -148,8 +90,6 @@
 			children = (
 				17D96D5F1F7CE23900582D60 /* SimpleRoutePod */,
 				17422CEC1F289DA1000C1EB7 /* Router */,
-				17422D061F289DA1000C1EB7 /* 路由Tests */,
-				17422D111F289DA2000C1EB7 /* 路由UITests */,
 				17422CEB1F289DA1000C1EB7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -158,8 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				17422CEA1F289DA1000C1EB7 /* 路由.app */,
-				17422D031F289DA1000C1EB7 /* 路由Tests.xctest */,
-				17422D0E1F289DA2000C1EB7 /* 路由UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -196,33 +134,9 @@
 		17422CED1F289DA1000C1EB7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				17D96D491F7A53EC00582D60 /* YBPopupMenu */,
 				17422CEE1F289DA1000C1EB7 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		17422D061F289DA1000C1EB7 /* 路由Tests */ = {
-			isa = PBXGroup;
-			children = (
-				17422D071F289DA1000C1EB7 /* __Tests.m */,
-				172D2E7A1F301ACC0063F58A /* RouteUrlTest.m */,
-				172D2E7C1F3020F00063F58A /* MethodTest.m */,
-				172D2E7E1F30259B0063F58A /* ReceiveObjectTest.m */,
-				172D2E801F3031070063F58A /* EventTest.m */,
-				172D2E851F3080610063F58A /* EventQueueTest.m */,
-				17422D091F289DA2000C1EB7 /* Info.plist */,
-			);
-			path = "路由Tests";
-			sourceTree = "<group>";
-		};
-		17422D111F289DA2000C1EB7 /* 路由UITests */ = {
-			isa = PBXGroup;
-			children = (
-				17422D121F289DA2000C1EB7 /* __UITests.m */,
-				17422D141F289DA2000C1EB7 /* Info.plist */,
-			);
-			path = "路由UITests";
 			sourceTree = "<group>";
 		};
 		17422D201F289DBC000C1EB7 /* SimpleRouter */ = {
@@ -249,19 +163,6 @@
 				17422D261F289DBC000C1EB7 /* SBSimpleRouteUrl.m */,
 			);
 			path = SimpleRouter;
-			sourceTree = "<group>";
-		};
-		17D96D491F7A53EC00582D60 /* YBPopupMenu */ = {
-			isa = PBXGroup;
-			children = (
-				17D96D4A1F7A53EC00582D60 /* YBPopupMenu.h */,
-				17D96D4B1F7A53EC00582D60 /* YBPopupMenu.m */,
-				17D96D4C1F7A53EC00582D60 /* YBPopupMenuPath.h */,
-				17D96D4D1F7A53EC00582D60 /* YBPopupMenuPath.m */,
-				17D96D4E1F7A53EC00582D60 /* YBRectConst.h */,
-				17D96D4F1F7A53EC00582D60 /* YBRectConst.m */,
-			);
-			path = YBPopupMenu;
 			sourceTree = "<group>";
 		};
 		17D96D5F1F7CE23900582D60 /* SimpleRoutePod */ = {
@@ -291,42 +192,6 @@
 			productReference = 17422CEA1F289DA1000C1EB7 /* 路由.app */;
 			productType = "com.apple.product-type.application";
 		};
-		17422D021F289DA1000C1EB7 /* 路由Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 17422D1A1F289DA2000C1EB7 /* Build configuration list for PBXNativeTarget "路由Tests" */;
-			buildPhases = (
-				17422CFF1F289DA1000C1EB7 /* Sources */,
-				17422D001F289DA1000C1EB7 /* Frameworks */,
-				17422D011F289DA1000C1EB7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				17422D051F289DA1000C1EB7 /* PBXTargetDependency */,
-			);
-			name = "路由Tests";
-			productName = "路由Tests";
-			productReference = 17422D031F289DA1000C1EB7 /* 路由Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		17422D0D1F289DA2000C1EB7 /* 路由UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 17422D1D1F289DA2000C1EB7 /* Build configuration list for PBXNativeTarget "路由UITests" */;
-			buildPhases = (
-				17422D0A1F289DA2000C1EB7 /* Sources */,
-				17422D0B1F289DA2000C1EB7 /* Frameworks */,
-				17422D0C1F289DA2000C1EB7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				17422D101F289DA2000C1EB7 /* PBXTargetDependency */,
-			);
-			name = "路由UITests";
-			productName = "路由UITests";
-			productReference = 17422D0E1F289DA2000C1EB7 /* 路由UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -340,16 +205,6 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = VPRKVT67Z8;
 						ProvisioningStyle = Automatic;
-					};
-					17422D021F289DA1000C1EB7 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 17422CE91F289DA1000C1EB7;
-					};
-					17422D0D1F289DA2000C1EB7 = {
-						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 17422CE91F289DA1000C1EB7;
 					};
 				};
 			};
@@ -367,8 +222,6 @@
 			projectRoot = "";
 			targets = (
 				17422CE91F289DA1000C1EB7 /* 路由 */,
-				17422D021F289DA1000C1EB7 /* 路由Tests */,
-				17422D0D1F289DA2000C1EB7 /* 路由UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -381,20 +234,6 @@
 				17422CFD1F289DA1000C1EB7 /* LaunchScreen.storyboard in Resources */,
 				17422CFA1F289DA1000C1EB7 /* Assets.xcassets in Resources */,
 				17422CF81F289DA1000C1EB7 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		17422D011F289DA1000C1EB7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		17422D0C1F289DA2000C1EB7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +250,6 @@
 				172D2E731F2F2CBC0063F58A /* NSObject+SBSimpleRoute.m in Sources */,
 				1749E6271F38B1EA00E0EE16 /* SBSRAutoRegistModel.m in Sources */,
 				17D96D5E1F7BA69300582D60 /* RouteViewController.m in Sources */,
-				17D96D511F7A53EC00582D60 /* YBPopupMenuPath.m in Sources */,
 				17422CF21F289DA1000C1EB7 /* AppDelegate.m in Sources */,
 				172D2E841F304CE80063F58A /* SBSimpleEventQueue.m in Sources */,
 				17422D281F289DBC000C1EB7 /* SBSimpleRouter.m in Sources */,
@@ -419,8 +257,6 @@
 				17D96D481F7A358100582D60 /* TestViewController.m in Sources */,
 				17422D271F289DBC000C1EB7 /* SBSimpleRouteEvent.m in Sources */,
 				17422D2F1F29D02E000C1EB7 /* SBSReceiveObject.m in Sources */,
-				17D96D501F7A53EC00582D60 /* YBPopupMenu.m in Sources */,
-				17D96D521F7A53EC00582D60 /* YBRectConst.m in Sources */,
 				17D96D551F7B56D500582D60 /* TestAotuViewController.m in Sources */,
 				17D96D3F1F7A2A1E00582D60 /* RootViewController.m in Sources */,
 				172D2E791F300B110063F58A /* NSError+SBStructure.m in Sources */,
@@ -429,41 +265,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		17422CFF1F289DA1000C1EB7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				172D2E861F3080610063F58A /* EventQueueTest.m in Sources */,
-				172D2E7F1F30259B0063F58A /* ReceiveObjectTest.m in Sources */,
-				17422D081F289DA1000C1EB7 /* __Tests.m in Sources */,
-				172D2E7D1F3020F00063F58A /* MethodTest.m in Sources */,
-				172D2E7B1F301ACC0063F58A /* RouteUrlTest.m in Sources */,
-				172D2E811F3031070063F58A /* EventTest.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		17422D0A1F289DA2000C1EB7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				17422D131F289DA2000C1EB7 /* __UITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		17422D051F289DA1000C1EB7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 17422CE91F289DA1000C1EB7 /* 路由 */;
-			targetProxy = 17422D041F289DA1000C1EB7 /* PBXContainerItemProxy */;
-		};
-		17422D101F289DA2000C1EB7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 17422CE91F289DA1000C1EB7 /* 路由 */;
-			targetProxy = 17422D0F1F289DA2000C1EB7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		17422CF61F289DA1000C1EB7 /* Main.storyboard */ = {
@@ -580,8 +382,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VPRKVT67Z8;
-				INFOPLIST_FILE = "路由/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				INFOPLIST_FILE = Router/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "qyb.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -593,57 +395,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VPRKVT67Z8;
-				INFOPLIST_FILE = "路由/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				INFOPLIST_FILE = Router/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "qyb.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		17422D1B1F289DA2000C1EB7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "路由Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "qyb.--Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/路由.app/路由";
-			};
-			name = Debug;
-		};
-		17422D1C1F289DA2000C1EB7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "路由Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "qyb.--Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/路由.app/路由";
-			};
-			name = Release;
-		};
-		17422D1E1F289DA2000C1EB7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "路由UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "qyb.--UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "路由";
-			};
-			name = Debug;
-		};
-		17422D1F1F289DA2000C1EB7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "路由UITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "qyb.--UITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = "路由";
 			};
 			name = Release;
 		};
@@ -664,24 +420,6 @@
 			buildConfigurations = (
 				17422D181F289DA2000C1EB7 /* Debug */,
 				17422D191F289DA2000C1EB7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		17422D1A1F289DA2000C1EB7 /* Build configuration list for PBXNativeTarget "路由Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				17422D1B1F289DA2000C1EB7 /* Debug */,
-				17422D1C1F289DA2000C1EB7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		17422D1D1F289DA2000C1EB7 /* Build configuration list for PBXNativeTarget "路由UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				17422D1E1F289DA2000C1EB7 /* Debug */,
-				17422D1F1F289DA2000C1EB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -8,8 +8,7 @@
 
 #import "ManualRegistViewController.h"
 #import "SBSimpleRouter.h"
-#import "YBPopupMenu.h"
-@interface ManualRegistViewController ()<UITableViewDelegate,UITableViewDataSource,YBPopupMenuDelegate>
+@interface ManualRegistViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @end
 
