@@ -16,13 +16,10 @@
 @property (strong,nonatomic,readwrite) SBSReceiveObject *receive;
 @property (strong,nonatomic,readwrite) SBSMethodObject *method;
 @property (strong,nonatomic,readwrite) SBSimpleRouteUrl *routeUrl;
-
-@property (strong,nonatomic,readwrite) NSArray *params;
-@property (copy,nonatomic,readwrite) void(^response)(id response,NSString *url,BOOL finished,NSError *error);
 @end
 @implementation SBSimpleRouteEvent
+
 {
-    id _receiveObject;
     dispatch_semaphore_t _globalInstancesLock;
 }
 - (instancetype)initWithReceiveObject:(SBSReceiveObject *)object method:(SBSMethodObject *)method routeUrl:(SBSimpleRouteUrl *)routeUrl{
@@ -44,15 +41,11 @@
 - (void)handleEventParams:(NSArray *)params response:(void(^)(id response,NSString *url,BOOL finished,NSError *error))response{
     
     eventLock();
-    _params = params.copy;
-    _response = [response copy];
-    _receiveObject = _method.methodType?[_receive sb_class]:[_receive sb_instance];
+     id receiveObject = _method.methodType?[_receive sb_class]:[_receive sb_instance];
     eventUnlock();
-    
+
     SBSMethodObject *method = [_method copy];
     SBSimpleRouteUrl *routeUrl = [_routeUrl copy];
-    id receiveObject = _receiveObject;
-    
     if (method.methodType == 2) {
         [self handleBlockParams:params response:response methodBlock:[method.methodBlock copy]];
         return;

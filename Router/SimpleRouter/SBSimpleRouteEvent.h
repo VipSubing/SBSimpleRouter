@@ -17,9 +17,6 @@
 @property (strong,nonatomic,readonly) SBSimpleRouteUrl *routeUrl;
 @property (copy,nonatomic,readonly) id (^handleBlock)(NSArray *params);
 
-@property (strong,nonatomic,readonly) NSArray *params;
-@property (copy,nonatomic,readonly) void(^response)(id response,NSString *url,BOOL finished,NSError *error);
-
 - (instancetype)initWithReceiveObject:(SBSReceiveObject *)object method:(SBSMethodObject *)method routeUrl:(SBSimpleRouteUrl *)routeUrl;
 - (void)handleEventParams:(NSArray *)params response:(void(^)(id response,NSString *url,BOOL finished,NSError *error))response;
 @end

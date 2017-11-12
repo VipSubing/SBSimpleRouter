@@ -147,12 +147,13 @@ NSString *const __free_custom_service = @"FreeCustom/service";
         response(nil,routeUrl.url,NO,[NSError sb_errorWithDomain:@"其他错误" code:SBSimpleRouteOtherError userInfo:@{@"url":request}]);
         return;
     }
-//    [self _addEventToTop:event];
+    [self _addEventToTop:event];
     [event handleEventParams:params response:response];
 }
 - (id)callActionRequest:(NSString *)request params:(NSArray *)params{
     __block id result = nil;
     [self callActionRequest:request params:params response:^(id response, NSString *url, BOOL success,NSError *error) {
+        
         if (success) {
             result = response;
         }
