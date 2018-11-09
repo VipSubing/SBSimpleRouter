@@ -12,7 +12,7 @@
 #import "SBSMethodObject.h"
 #import "NSError+SBStructure.h"
 @interface SBSimpleRouteEvent : NSObject
-@property (strong,nonatomic,readonly) SBSReceiveObject *receive;
+@property (weak,nonatomic,readonly) SBSReceiveObject *receive;
 @property (strong,nonatomic,readonly) SBSMethodObject *method;
 @property (strong,nonatomic,readonly) SBSimpleRouteUrl *routeUrl;
 @property (copy,nonatomic,readonly) id (^handleBlock)(NSArray *params);

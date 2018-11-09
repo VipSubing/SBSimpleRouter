@@ -13,7 +13,7 @@
 #define eventUnlock() dispatch_semaphore_signal(_globalInstancesLock)
 
 @interface SBSimpleRouteEvent()<NSCopying>
-@property (strong,nonatomic,readwrite) SBSReceiveObject *receive;
+@property (weak,nonatomic,readwrite) SBSReceiveObject *receive;
 @property (strong,nonatomic,readwrite) SBSMethodObject *method;
 @property (strong,nonatomic,readwrite) SBSimpleRouteUrl *routeUrl;
 @end
