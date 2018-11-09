@@ -8,6 +8,7 @@
 
 #import "RootViewController.h"
 #import "SBSimpleRouter.h"
+#import "RouteViewController.h"
 @interface RootViewController ()
 
 @end
@@ -47,7 +48,7 @@
         [self.navigationController pushViewController:vc animated:YES];
     }else {
         [self registRoute];
-        id target = [[SBSimpleRouter shareRouter] callActionRequest:@"Test/RouteViewController#initMethod" params:@[@"我是测试title"]];
+        id target = [RouteViewController new] ;
         if (target) {
              [[SBSimpleRouter shareRouter] callActionRequest:@"Test/CustomTest#transition" params:@[target,@"push"]];
         }

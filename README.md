@@ -1,11 +1,21 @@
-# SBSimpleRouter  简洁优雅的路由管理
+# Coding Rule
    
-## Overview
 
-SBSimpleRouter使用主要分为两部<br>
-第一步——注册，相比传统的路由注册方式，它扩展的几个更方便的注册方式，包括自动注册，自定义注册<br>
-第二步——调用，调用方式包括对象调用和非对象调用。
-## Cocoa Pods
+操作系统：mac os
+开发软件：Xcode9.0以上
+
+
+## 基本
+
+## 项目开始
+1.APP采用object-c纯代码开发，末使用故事面板(storyboard)<br>
+2.布局我们采用Masonry布局。<br>
+3.设计模式 MVC。<br>
+4.使用YTKNetworking（AFNetworking的再封装）为网络请求引擎。<br>https://github.com/yuantiku/YTKNetwork<br>
+5.使用cocoapods进行库的统一管理，使用方便，清晰明了。<br>
+6.使用git管理代码，团队开发，目前放在OSChina上，请下载SourceTree客户端进行git操作.<br>
+7.数据库操作  <Realm><br>
+## 目录结构
 pod 'SBSimpleRouter'
 ## Route Format (路由格式:host#action?params)
 
